@@ -10,17 +10,14 @@
 <style>
   .nav-item .nav-link {
     color: white;
-    font-family: inherit;
-  }
-  .anime {
-    background: #111111;
+    font-family: cursive;
   }
 </style>
 
 <body>
 
-  <nav class=" navbar navbar-expand-lg text-bg-dark py-2">
-    <div class="anime container-fluid">
+  <nav class="anime navbar navbar-dark navbar-expand-lg text-bg-dark py-2">
+    <div class=" container-fluid">
       <a class="navbar-brand" href="">
         <img src="asset/img/navlogo.png" alt="" width="110" height="44" class="d-inline-block align-text-top">
       </a>
@@ -42,18 +39,21 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
         </ul>
+        <a href="" class="navbar-text">
+          Navbar text with an inline element
+        </a>
       </div>
     </div>
   </nav>
 
-
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
